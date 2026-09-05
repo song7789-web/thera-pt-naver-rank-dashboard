@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "mode": "setup_required",
+  "rankings": [],
+  "review": { "status": "manual_required", "latest": null, "history": [] },
+  "notes": ["네이버 API 키 연결 후 GitHub Actions가 이 파일을 매일 업데이트합니다."]
+}
