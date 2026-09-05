@@ -1,7 +1,421 @@
 {
   "version": 1,
-  "mode": "setup_required",
-  "rankings": [],
-  "review": { "status": "manual_required", "latest": null, "history": [] },
-  "notes": ["네이버 API 키 연결 후 GitHub Actions가 이 파일을 매일 업데이트합니다."]
+  "mode": "live",
+  "date": "2026-09-05",
+  "collectedAt": "2026-09-05T06:24:37.191Z",
+  "place": {
+    "name": "테라 PT 언주역점",
+    "id": "1846137508"
+  },
+  "rankSource": "NAVER API HUB 지역검색 · 정확도순 · 상위 5개 결과",
+  "rankings": [
+    {
+      "keyword": "언주역PT",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역헬스장",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역PT후기",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역헬스장추천",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역PT허리",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역근처헬스장",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역PT어깨",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역회원권",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역PT무릎",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역주변헬스장위치",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역헬스피티",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역근처헬스장위치",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역다이어트",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역헬스장일일권",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역개인PT",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역헬스장체험",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역피트니스",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역헬스장가격",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역요가",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역PT추천",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역PT다이어트",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역다이어트PT",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역체험PT",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역교정운동",
+      "group": "언주역",
+      "rank": 2,
+      "checked": true,
+      "status": "found"
+    },
+    {
+      "keyword": "언주역PT30대",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "언주역PT가격",
+      "group": "언주역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "논현동PT",
+      "group": "논현동",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "논현동헬스장",
+      "group": "논현동",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "논현PT",
+      "group": "논현동",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "논현헬스장",
+      "group": "논현동",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "논현헬스",
+      "group": "논현동",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "논현동필라테스",
+      "group": "논현동",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "논현동요가",
+      "group": "논현동",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "논현동PT가격",
+      "group": "논현동",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "논현동다이어트",
+      "group": "논현동",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "논현동PT후기",
+      "group": "논현동",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "논현동다이어트PT",
+      "group": "논현동",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "논현동PT예약",
+      "group": "논현동",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "강남논현동PT헬스",
+      "group": "논현동",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "강남구논현동PT헬스위치",
+      "group": "논현동",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "학동역PT",
+      "group": "학동역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "학동역헬스장",
+      "group": "학동역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "학동역PT가격",
+      "group": "학동역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "학동역헬스장PT",
+      "group": "학동역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "학동역PT일자목",
+      "group": "학동역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "학동역헬스클럽",
+      "group": "학동역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "학동역교정운동",
+      "group": "학동역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "학동역헬스장가격",
+      "group": "학동역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "학동역PT후기",
+      "group": "학동역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "학동역헬스장추천",
+      "group": "학동역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "학동역PT할인",
+      "group": "학동역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "학동역PT30대",
+      "group": "학동역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "논현학동PT",
+      "group": "학동역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "학동역피트니스",
+      "group": "학동역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "학동역요가",
+      "group": "학동역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "학동역필라테스",
+      "group": "학동역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    },
+    {
+      "keyword": "학동역PT추천",
+      "group": "학동역",
+      "rank": null,
+      "checked": false,
+      "status": "outside_top_5"
+    }
+  ],
+  "review": {
+    "status": "manual_required",
+    "latest": null,
+    "history": []
+  },
+  "notes": [
+    "지역검색 API는 한 번에 최대 5개 결과만 제공하므로 5위 밖은 미확인으로 표시됩니다.",
+    "방문자 리뷰 수와 플레이스 블로그 리뷰 수는 NAVER API HUB 공개 응답에 포함되지 않아 수동 입력으로 유지합니다."
+  ]
 }
