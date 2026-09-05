@@ -1,8 +1,6 @@
-name: 네이버 순위 매일 수집
+name: 네이버 실제 순위 수동 점검
 
 on:
-  schedule:
-    - cron: '0 0 * * *'
   workflow_dispatch:
 
 permissions:
@@ -10,7 +8,7 @@ permissions:
 
 jobs:
   collect:
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-latest
     steps:
       - name: 저장소 가져오기
         uses: actions/checkout@v4
@@ -18,11 +16,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: 네이버 지역검색 수집
+          cache: npm
+      - name: 수집 도구 준비
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+      - name: 네이버 플레이스 실제 순위 점검
         run: node scripts/collect-naver.mjs
-        env:
-          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
-          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
       - name: 수집 결과 저장
         run: |
           git config user.name "github-actions[bot]"

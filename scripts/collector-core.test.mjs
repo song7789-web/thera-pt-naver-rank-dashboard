@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { findPlaceRank, findRenderedPlaceRank, mergeReviewCounts } from './collector-core.mjs';
+import { findPlaceRank, findRenderedPlaceRank, isNaverSecurityChallenge, mergeReviewCounts } from './collector-core.mjs';
 
 test('returns the 1-based rank when the target place id is in the results', () => {
   const items = [
@@ -31,6 +31,22 @@ test('does not treat an advertised target card as an organic rank', () => {
   ];
 
   assert.equal(findRenderedPlaceRank(entries, '1846137508'), null);
+});
+
+test('does not count duplicate organic cards twice', () => {
+  const entries = [
+    { href: 'https://m.place.naver.com/place/1000', isAd: false },
+    { href: 'https://m.place.naver.com/place/1000?entry=pll', isAd: false },
+    { href: 'https://m.place.naver.com/place/1846137508', isAd: false },
+  ];
+
+  assert.equal(findRenderedPlaceRank(entries, '1846137508'), 2);
+});
+
+test('recognizes Naver security and access-limit pages', () => {
+  assert.equal(isNaverSecurityChallenge('NAVER 보안 확인'), true);
+  assert.equal(isNaverSecurityChallenge('과도한 접근 요청으로 서비스 이용이 제한되었습니다.'), true);
+  assert.equal(isNaverSecurityChallenge('언주역피티 플레이스 검색 결과'), false);
 });
 
 test('sums visitor and blog review counts without inventing missing values', () => {
